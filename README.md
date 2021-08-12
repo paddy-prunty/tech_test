@@ -11,7 +11,9 @@ Thanks
 
 #### create person
  METHOD:PUT 
+ 
  ENDPOINT:localhost:8080/person/create
+ 
  BODY:
 
 {"Id":1,
@@ -20,7 +22,9 @@ Thanks
 
 #### update person
 METHOD:POST 
+
 ENDPOINT:localhost:8080/person/update
+
 BODY:
 
 {"Id":1,
@@ -29,20 +33,25 @@ BODY:
 
 #### delete person
 METHOD:DELETE 
+
 ENDPOINT:localhost:8080/person/delete/{id}
 
 #### get person list
 METHOD:GET 
+
 ENDPOINT:localhost:8080/person/getlist
 
 #### get person count
 METHOD:GET 
+
 ENDPOINT:localhost:8080/person/count
 
 
 #### create address
 METHOD:PUT 
+
 localhost:8080/address/create
+
 BODY:
 
 {"Id":1,
@@ -54,11 +63,14 @@ BODY:
 
 #### get address
 METHOD:GET 
+
 localhost:8080/address/get/{id}
 
 #### update address
 METHOD:POST 
+
 ENDPOINT:localhost:8080/address/update
+
 BODY:
 
 {"Id":1,
@@ -70,6 +82,7 @@ BODY:
 
 #### delete address
 METHOD:DELETE 
+
 ENDPOINT:localhost:8080/address/delete/{id}
 
 
