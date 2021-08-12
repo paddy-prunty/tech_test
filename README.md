@@ -10,9 +10,9 @@ Thanks
 ## endpoints
 
 #### create person
-METHOD:PUT 
-ENDPOINT:localhost:8080/person/create
-BODY:
+ METHOD:PUT 
+ ENDPOINT:localhost:8080/person/create
+ BODY:
 
 {"Id":1,
 "FirstName":"patrick",
